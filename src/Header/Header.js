@@ -4,11 +4,12 @@ import { NavLink } from 'react-router-dom';
 function Header() {
 
   return(
-    <header className="App-header">
-      <h1>Mormor's Receptbok</h1>
+    <header class="App-header">
+      <h1 class="title">Mormor's Receptbok</h1>
       <div className="btmbox">
         <div className="links">
-          <NavLink exact to='/' className="navBtn hovershdw" activeClassName="selected">Home</NavLink>
+          <NavLink exact to="/" className={({ isActive }) => "navBtn hovershdw" + (isActive ? "selected" : "selected")}>Home</NavLink>
+
         </div>
       </div>
     </header>
