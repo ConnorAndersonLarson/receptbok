@@ -13,10 +13,6 @@ header {
   align-self: center;
 }
 
-.selected {
-  background-color: $secondary1;
-}
-
 .navBtn {
   background-color: $secondary2;
   margin: 0px 10px 0px 10px;
@@ -25,4 +21,8 @@ header {
   &:hover{
     background-color: $secondary1;
   }
+}
+
+.selected {
+  background-color: $secondary1;
 }

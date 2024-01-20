@@ -8,8 +8,8 @@ function Header() {
       <h1 class="title">Mormor's Receptbok</h1>
       <div className="btmbox">
         <div className="links">
-          <NavLink exact to="/" className={({ isActive }) => "navBtn hovershdw" + (isActive ? "selected" : "selected")}>Home</NavLink>
-          <NavLink exact to="/index" className={({ isActive }) => "navBtn hovershdw" + (isActive ? "selected" : "selected")}>Index</NavLink>
+          <NavLink exact to="/" className={({ isActive }) => "navBtn hovershdw " + (isActive ? "selected" : "")}>Home</NavLink>
+          <NavLink exact to="/index" className={({ isActive }) => "navBtn hovershdw " + (isActive ? "selected" : "")}>Index</NavLink>
         </div>
       </div>
     </header>
